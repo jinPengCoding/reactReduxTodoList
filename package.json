@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "antd": "^3.17.0",
     "axios": "^0.18.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.0"
+    "react-scripts": "3.0.0",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,16 +19,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "proxy": {
-   "/douban": {
-     "target": "https://api.douban.com",
-     "changeOrigin":true,
-     "ws":true,
-     "PathReWrite":{
-        "^/douban":""
-     }
-   }
- },
   "browserslist": {
     "production": [
       ">0.2%",
